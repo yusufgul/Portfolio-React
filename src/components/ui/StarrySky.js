@@ -55,7 +55,7 @@ const StarrySky = () => {
     // Create an empty array for circle objects
     const circles = [];
     let circleCount;
-    // Create more start for small screens because less star can be seen at small screens
+    // Create more stars for small screens because less star can be seen at small screens
     // Bigger number means less stars because we divide canvas area by that number
     if (window.innerWidth > 1024) {
       circleCount = Math.round((canvas.width * canvas.height) / (40 * 40));
