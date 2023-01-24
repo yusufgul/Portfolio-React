@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#03040b] h-full w-full m-0;
+}
+
+@keyframes hop {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* max-[670px]: can be used for width but there is no tailwinds version for height */
+/* So, I had to use css */
+@media screen and (min-height: 670px) {
+  .hide {
+    display: flex;
+  }
+}
