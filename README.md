@@ -27,7 +27,7 @@ https://portfolio-9defb.web.app/
     Run the development server: npm start
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Firestore Collection Structure
+### Firestore Collection Structure Example
     
     collection-name | document-id | data-fields
     -------------------------------------------
@@ -43,7 +43,7 @@ https://portfolio-9defb.web.app/
                            |
                            |________ id: 5
                            |
-                           |________ name: "portfolio"
+                           |________ name: "project-name"
                            |
                            |________ projectLink: "https://github.com/----/-------"
 
