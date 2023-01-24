@@ -3,9 +3,8 @@
 
 Welcome to my personal portfolio project that I created for myself. I wanted to reflect my love towards the sky to this project, and I intend to continue developing it in the future.</br></br>This project was made with React.js and Tailwind.
 ```diff
-I recommend using Chrome or another Chromium-based browser.
-The background of this project is somewhat heavy to render, 
-and Firefox doesn't seem to be doing great with it. 
+I recommend using Chrome or another Chromium-based browser. The background of this 
+project is somewhat heavy to render, and Firefox doesn't seem to be doing great with it. 
 ```
 
 ## Demo Link
