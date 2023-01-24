@@ -11,9 +11,9 @@ project is somewhat heavy to render, and Firefox doesn't seem to be doing great 
 https://portfolio-9defb.web.app/
 
 ## Features
-- Starry sky for background created using canvas.
+- Starry sky for the background created using canvas.
   - Background rotates slowly but only on bigger screens since older mobile devices have a hard time handling it. 
-  - Sky also only rotates at the homepage, because I quickly relaized that trying to read something while the background is spinning can be dizzying. So, it only rotates on the homepage and on big screens.
+  - Sky also only rotates at the homepage, because I quickly relaized that, trying to read something while the background is spinning can be dizzying. So, it only rotates on the homepage and on big screens.
 - Displayed projects are not hard-coded. They are getting fetched from Firebase - Firestore Database. So, it can be updated easily.
 - For handling contact form, [Getform.io](https://getform.io/) is used. Getform.io is a powerful form backend for HTML web forms.
 - Responsive design for screens of any size.
